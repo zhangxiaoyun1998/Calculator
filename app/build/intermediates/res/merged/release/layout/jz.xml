@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/input"
+        android:hint="请输入十进制数"
+        />
+    <TextView
+        android:text="TextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView" />
+    <Button
+        android:id="@+id/btn2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="二进制"/><Button
+    android:id="@+id/btn8"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="八进制"/><Button
+    android:id="@+id/btn16"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="十六进制"/>
+</LinearLayout>
